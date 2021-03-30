@@ -28,6 +28,7 @@ for j in range(60):
 plt.plot(x,y)
 plt.plot([],[],label='minimum= '+str(minimum_value.x))
 plt.legend()
+plt.savefig('minimize.png')
 plt.show()
     
     
